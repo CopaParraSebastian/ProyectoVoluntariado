@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RegistroCompletadoActivity">
+
+    <TextView
+        android:id="@+id/textViewRegistroCompletadoTitulo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="REGISTRO COMPLETADO"
+        android:textSize="24sp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="16dp" />
+
+    <TextView
+        android:id="@+id/textViewFelicidades"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="¡Felicidades, ya estás registrado!"
+        app:layout_constraintTop_toBottomOf="@id/textViewRegistroCompletadoTitulo"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="16dp" />
+
+    <TextView
+        android:id="@+id/textViewNombreCompleto"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nombre Completo:"
+        app:layout_constraintTop_toBottomOf="@id/textViewFelicidades"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginTop="16dp"
+        android:layout_marginStart="16dp" />
+
+    <TextView
+        android:id="@+id/textViewNombreYApellido"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nombre y Apellido del usuario"
+        app:layout_constraintTop_toBottomOf="@id/textViewNombreCompleto"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginTop="8dp"
+        android:layout_marginStart="16dp" />
+
+    <TextView
+        android:id="@+id/textViewAreaDeApoyo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ÁREA DE APOYO:"
+        app:layout_constraintTop_toBottomOf="@id/textViewNombreYApellido"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginTop="16dp"
+        android:layout_marginStart="16dp" />
+
+    <TextView
+        android:id="@+id/textViewAreaSeleccionada"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Área seleccionada"
+        app:layout_constraintTop_toBottomOf="@id/textViewAreaDeApoyo"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginTop="8dp"
+        android:layout_marginStart="16dp" />
+
+    <TextView
+        android:id="@+id/textViewLugarDeVoluntariado"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="LUGAR DE VOLUNTARIADO:"
+        app:layout_constraintTop_toBottomOf="@id/textViewAreaSeleccionada"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginTop="16dp"
+        android:layout_marginStart="16dp" />
+
+    <TextView
+        android:id="@+id/textViewLugarSeleccionado"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Lugar seleccionado"
+        app:layout_constraintTop_toBottomOf="@id/textViewLugarDeVoluntariado"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginTop="8dp"
+        android:layout_marginStart="16dp" />
+
+    <TextView
+        android:id="@+id/textViewHorarioDelVoluntariado"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="HORARIO DEL VOLUNTARIADO:"
+        app:layout_constraintTop_toBottomOf="@id/textViewLugarSeleccionado"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginTop="16dp"
+        android:layout_marginStart="16dp" />
+
+    <TextView
+        android:id="@+id/textViewHorarioSeleccionado"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Horario seleccionado"
+        app:layout_constraintTop_toBottomOf="@id/textViewHorarioDelVoluntariado"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginTop="8dp"
+        android:layout_marginStart="16dp" />
+
+    <Button
+        android:id="@+id/btnVerTareas"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="VER TAREAS"
+        app:layout_constraintTop_toBottomOf="@id/textViewHorarioSeleccionado"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="24dp" />
+
+    <TextView
+        android:id="@+id/textViewFrase"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tu tiempo vale más cuando lo compartes."
+        app:layout_constraintTop_toBottomOf="@id/btnVerTareas"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="24dp" />
+</androidx.constraintlayout.widget.ConstraintLayout>

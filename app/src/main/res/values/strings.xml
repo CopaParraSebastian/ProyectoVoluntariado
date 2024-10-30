@@ -1,0 +1,26 @@
+<resources>
+
+    <string name="app_name">PrácticaFinal4Bim</string>
+
+    <!-- Opciones para los Spinners de Asilo -->
+    <string-array name="lugares_asilo">
+        <item>Asilo 1</item>
+        <item>Asilo 2</item>
+        <item>Asilo 3</item>
+    </string-array>
+
+    <!-- Opciones para los Spinners de Orfanatos -->
+    <string-array name="lugares_orfanato">
+        <item>Orfanato 1</item>
+        <item>Orfanato 2</item>
+        <item>Orfanato 3</item>
+    </string-array>
+
+    <!-- Opciones para los Spinners de Horarios -->
+    <string-array name="horarios">
+        <item>Mañana</item>
+        <item>Tarde</item>
+        <item>Noche</item>
+    </string-array>
+
+</resources>
