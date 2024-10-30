@@ -40,7 +40,7 @@ public class TareasActivity extends AppCompatActivity {
     }
 
     private void actualizarTareas() {
-        String url = "http://192.168.1.140/conexion/actualizar_tareas.php";
+        String url = "http://192.168.1.140:80/conexion/actualizar_tareas.php";
 
         int tarea1 = checkBoxTarea1.isChecked() ? 1 : 0;
         int tarea2 = checkBoxTarea2.isChecked() ? 1 : 0;
